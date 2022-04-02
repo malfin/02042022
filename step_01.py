@@ -18,3 +18,5 @@ print(filter_products(
     [1, 45, 87, 2, 5, 23, 9],
     [87, 1, 5]
 ))
+
+# target_prods = [45, 2, 23, 9]
