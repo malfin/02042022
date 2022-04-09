@@ -3,9 +3,9 @@ import click
 
 @click.command()
 @click.option('--number', prompt='Your number')
-def hello(numbers):
+def hello(number):
     subtraction = 0
-    numbers_list = list(map(int, numbers.split(',')))
+    numbers_list = list(map(int, number.split(',')))
     for x in numbers_list:
         subtraction -= x
     click.echo(subtraction)
