@@ -6,7 +6,8 @@
 
 
 def filter_products(products, seen_prods):
-    target_prods = list(set(products).symmetric_difference(seen_prods))
+    target_prods = list(set(products).difference(seen_prods))
+    # or target_prods = list(set(products) ^ set(seen_prods))
 
     return target_prods
 
