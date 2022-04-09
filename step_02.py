@@ -1,5 +1,5 @@
 numbers = input()
-summa = 0
+subtraction = 0
 
 '''
 
@@ -18,6 +18,6 @@ numbers_list = list(map(int, numbers.split(',')))
 '''
 
 for i in numbers_list:
-    summa -= i
+    subtraction -= i
 
-print(summa)
+print(subtraction)
