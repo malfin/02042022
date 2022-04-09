@@ -9,9 +9,7 @@ summa = 0
 
 '''
 
-numbers_list = list(
-    map(int, ' '.join(str(numbers)).split(
-        ',')))
+numbers_list = list(map(int, numbers.split(',')))
 
 '''
 
