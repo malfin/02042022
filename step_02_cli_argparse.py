@@ -9,7 +9,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("subtraction",
-                    help="subtraction", nargs='+')
+                    help="subtraction numbers", nargs='+')
 args = parser.parse_args()
 # print(args.subtraction)
 
