@@ -2,7 +2,7 @@ import click
 
 
 @click.command()
-@click.option('--number', prompt='Your number')
+@click.option('--number', prompt='Your numbers')
 def hello(number):
     subtraction = 0
     numbers_list = list(map(int, number.split(',')))
