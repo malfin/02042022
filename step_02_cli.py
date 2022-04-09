@@ -1,7 +1,8 @@
 """
 USE CLI:
     python step_02_cli.py --number='1,2,3,4,5'
-
+Linux and MacOS:
+    python3 step_02_cli.py --number='1,2,3,4,5'
 """
 
 import click
